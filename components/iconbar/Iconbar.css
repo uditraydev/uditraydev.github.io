@@ -1,0 +1,21 @@
+.bar{
+    width: 60px;
+    height: calc(100vh - 20px);
+    background-color: #282a36ff;;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.icon-bar-icon{
+    width: inherit;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    justify-content: center;
+}
+.icon-bar-icon:hover{
+    color: white;
+}

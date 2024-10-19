@@ -1,0 +1,137 @@
+.heading{
+    /* background-color: red; */
+    width: 100%;
+    font-size: xx-large;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top:25px;
+    color: white;
+    
+}
+
+.sub-heading{
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.skills-heading{
+    padding-top: 15px;
+    color:wheat;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.text-and-terminal{
+    display: flex;
+    flex-direction: column;
+    
+}
+.terminal-overall{
+    position: absolute;
+    bottom: 0;
+}
+
+.blink{
+    animation: blink-anim 1.3s infinite;
+}
+
+
+@keyframes blink-anim{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.skills-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tree {
+    display: flex;
+    --spacing: 1rem;
+    --radius: 4px;
+}
+
+.tree li {
+    display: block;
+    padding-top: 5px;
+    position: relative;
+    padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+  }
+  
+.tree ul {
+    margin-left: calc(var(--radius) - var(--spacing));
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tree ul li {
+    border-left: 2px solid #5d5d5d;
+}
+
+.tree ul li:last-child {
+    border-color: transparent;
+}
+.tree ul li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) / -2);
+    left: -2px;
+    width: calc(24px );
+    height: calc(var(--spacing));
+    border: solid #5d5d5d;
+    border-width: 0px 0px 2px 2px;
+}
+.tree ul li::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc((var(--spacing) / 2 - var(--radius) ));
+    left: calc(18px);
+    width: calc((2 * var(--radius)));
+    height: calc((2 * var(--radius) ));
+    border-radius: 50%;
+    background: #5d5d5d;
+}
+.tree summary {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .tree summary::marker,
+  .tree summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .tree summary:focus {
+    outline: none;
+  }
+  
+  .tree summary:focus-visible {
+    outline: 1px dotted #000;
+  }
+
+/* .tree li::after,
+.tree summary::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc((var(--spacing) / 2 - var(--radius) ));
+  left: calc(var(--spacing) - var(--radius));
+  width: calc((2 * var(--radius)) + 2px);
+  height: calc((2 * var(--radius) ) + 2px);
+  border-radius: 50%;
+  background: #5d5d5d;
+} */

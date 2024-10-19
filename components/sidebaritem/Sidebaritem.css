@@ -1,0 +1,24 @@
+.top-comp{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 198px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.top-comp:hover{
+    background-color: rgb(63, 65, 84);
+}
+
+
+.icon-f{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 5px;
+    float: left;
+    size: "30px";
+}
+
+/* .top-comp-text{
+    padding-top: 8px;
+} */

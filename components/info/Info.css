@@ -1,0 +1,47 @@
+
+.info{
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.none{
+    font-weight: 600;
+}
+.blue{
+    font-weight: 600;
+    color:rgb(98, 177, 255);
+}
+.yellow{
+    font-weight: 600;
+    color:rgb(192, 192, 88);
+}
+.green{
+    font-weight: inherit;
+    color:rgb(57, 151, 66);
+}
+.terminal{
+    position: absolute;
+    bottom: 0;
+}
+.left-border{
+    font-weight: 600;
+    padding-left:5px;
+    border: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color:   rgb(111, 113, 145);
+    white-space:pre;
+}
+
+.contact-link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    text-decoration: underline;
+}
+.contact-link:visited{
+    font-weight: 600;
+    color:rgb(98, 177, 255);
+}

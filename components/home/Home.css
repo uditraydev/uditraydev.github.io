@@ -1,0 +1,57 @@
+.home-overall{
+    display: flex;
+    justify-content: left;
+    
+  color-scheme: light dark;
+  color: rgba(225, 225, 225, 0.87);
+  background-color: #282a36ff;
+  height: calc(100vh - 20px);
+}
+.topbar{
+  background-color: rgb(25, 26, 34);
+  display: flex;
+  justify-content: left;
+  height: 25px;
+  width: calc(100vw - 249px);
+
+}
+.taskbar{
+  height: 20px;
+  width: 100vw;
+  background-color: rgb(25, 26, 34);
+  display: flex;
+}
+.taskbar-items{
+  width: 100%;
+}
+.taskbar-item-button{
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 12px;
+  padding-bottom: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: 0;
+}
+.taskbar-item-button:hover{
+  background-color: rgb(68, 71, 93);
+}
+.left-content{
+    width: 100%;
+    height: calc(100vh -45px);
+
+}
+.right-content{
+  height: calc(100vh - 45px);
+  overflow-y: auto;
+  overflow: auto;
+}
+.top-right{
+  background-color: transparent;
+  width: 100%;
+  padding-top: 2px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  float:right;
+}

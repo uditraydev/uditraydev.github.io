@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Deterministic Finite Automaton Simulator",
+        "stack": "Python, PyQT, NetworkX, NumPy",
+        "imglink": "https://raw.githubusercontent.com/Lyeriff/dfa_sim/main/Screenshot.png?raw=true",
+        "desc": [
+            "Desktop app using Python, using PyQt for GUI",
+            "Implemented custom Automated Graph Generation for Vizualizing the State Diagrams using NetworkX"
+        ],
+        "links": [{
+            "text" : "GitHub",
+            "link": "https://github.com/lyer1/dfa_sim"}
+        ]
+    },
+    {
+        "title": "Physics Engine / Cloth Simulation",
+        "stack": "C++, SFML",
+        "imglink": "https://github.com/lyer1/phySIM/blob/main/image.png?raw=true",
+        "desc": [
+            "Learned and Utilized SFML for rendering computer graphics, windows, shapes, and event handling.",
+            "Applied mathematical abstraction for real-world physics modeling concepts like gravity, collision detection and resolution, response, soft bodies and constraint-based simulations.",
+            "Used Verlet integration for stability and optimization for a large number of objects",
+            "Used the engine for soft body cloth simulation. Implemented object interaction/creation and manipulation using user inputs"
+        ]
+    },
+    {
+        "title": "Python Library for Faster vector calculation",
+        "stack": "C/C++, CPython API, AVX2",
+        "desc": [
+            "Used AVX2 SIMD (Single Instructions Multiple Data) processor instructions/intrinsics for register vectorization to increase the speed of calucations by 2000% + compared to base python"
+        ],
+        "links": [{
+            "text" : "GitHub",
+            "link": "https://github.com/lyer1/pyrallel"}
+        ]
+    }
+]
